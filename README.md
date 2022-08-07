@@ -50,6 +50,6 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 
 
 
-> collaborator:
+> # *collaborator:*
 > 1. [Ann Wahome](https://github.com/AnnWahome)
 > 2. [John Muthabuku](https://github.com/John-thabuks)
