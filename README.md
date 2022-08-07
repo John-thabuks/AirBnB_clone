@@ -48,40 +48,40 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 ## User's steps:
 ### Interactive Mode
 ```python
-> $ ./console.py
-> (hbnb) help
-> 
-> Documented commands (type help <topic>):
-> ========================================
-> EOF  help  quit
-> 
-> (hbnb)
-> (hbnb)
-> (hbnb) quit
-> $
+$ ./console.py
+(hbnb) help
+ 
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb)
+(hbnb)
+(hbnb) quit
+$
 ```
 
 ### Non-Interactive Mode
 ```python
-> $ echo "help" | ./console.py
-> (hbnb)
-> 
-> Documented commands (type help <topic>):
-> ========================================
-> EOF  help  quit
-> (hbnb)
-> $
-> $ cat test_help
-> help
-> $
-> $ cat test_help | ./console.py
-> (hbnb)
-> 
-> Documented commands (type help <topic>):
-> ========================================
-> EOF  help  quit
-> (hbnb)
-> $
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
 ```
 
 
