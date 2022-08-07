@@ -45,11 +45,64 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 - [Python test cheatsheet](https://alx-intranet.hbtn.io/rltoken/tgNVrKKzlWgS4dfl3mQklw)
 
 
+## User's steps:
+### Interactive Mode
+```python
+$ ./console.py
+(hbnb) help
+ 
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb)
+(hbnb)
+(hbnb) quit
+$
+```
+
+### Non-Interactive Mode
+```python
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+```
 
 
+## description of the command interpreter
+
+| Description             | Command                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Creates an instance of a class | `create <class>` |
+| Retrieves all instances of a class | `<class>.all()` |
+| Retrieves the number of instances of a class | `<class>.count()` |
+| Retrieves an instance based on its id | `<class>.show(<id>)` |
+| Prints the string representation of an instance of a class based on class name and id | `show <class> <id>` |
+| Prints all string representations of all instances | `all` |
+| Prints all string representations of all instances based on class name | `all <class>` |
+| Updates an attribute of an instance based on class name and id | `update <class> <id> <attribute name> "<attribute value>"` |
+| Destroys an instance based on its id | `<class>.destroy(<id>)` |
+| Deletes instance of a class based on class name and id | `destroy <class> <id>` |
+| 	Exits the program | `EOF` |
+| 	Exits the program | `quit` |
 
 
-
-> # *collaborator:*
+> # Collaborators:
 > 1. [Ann Wahome](https://github.com/AnnWahome)
 > 2. [John Muthabuku](https://github.com/John-thabuks)
