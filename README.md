@@ -47,6 +47,7 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 
 ## User's steps:
 ### Interactive Mode
+```python
 > $ ./console.py
 > (hbnb) help
 > 
@@ -58,8 +59,10 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 > (hbnb)
 > (hbnb) quit
 > $
+```
 
 ### Non-Interactive Mode
+```python
 > $ echo "help" | ./console.py
 > (hbnb)
 > 
@@ -79,7 +82,7 @@ Do you remember the Shell? It’s exactly the same but limited to a specific use
 > EOF  help  quit
 > (hbnb)
 > $
-
+```
 
 
 ## description of the command interpreter
