@@ -103,6 +103,6 @@ $
 | 	Exits the program | `quit` |
 
 
-> # *collaborator:*
+> # Collaborators:
 > 1. [Ann Wahome](https://github.com/AnnWahome)
 > 2. [John Muthabuku](https://github.com/John-thabuks)
